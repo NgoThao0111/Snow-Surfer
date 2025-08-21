@@ -1,1 +1,2 @@
 SnowSurfer/Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
+SnowSurfer/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
