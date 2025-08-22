@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 100
+  controlID: 46
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 47
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -374,15 +374,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\Snow-Surfer\SnowSurfer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68b90000
-    m_LastClickedID: 47464
+    m_SelectedIDs: 4aba0000
+    m_LastClickedID: 47690
     m_ExpandedIDs: 000000008ab7000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -438,8 +438,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 24b70000
-    m_LastClickedInstanceID: 46884
+    m_SelectedInstanceIDs: 36b70000
+    m_LastClickedInstanceID: 46902
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000bccc00009cb90000f8b8000000000000d6b30000
     m_RenameOverlay:
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 36b70000
+      m_LastClickedID: 46902
       m_ExpandedIDs: 08fbffff36b70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1164,9 +1164,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 9.753848, y: 4.6963654, z: -0.034843385}
+    m_Target: {x: -6.7836776, y: 4.648711, z: -0.021682438}
     speed: 2
-    m_Value: {x: 9.125669, y: 5.0853157, z: -0.041174}
+    m_Value: {x: -6.7836776, y: 4.648711, z: -0.021682438}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1216,9 +1216,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.4349785
+    m_Target: 5.136622
     speed: 2
-    m_Value: 14.06804
+    m_Value: 5.136622
   m_Ortho:
     m_Target: 1
     speed: 2
