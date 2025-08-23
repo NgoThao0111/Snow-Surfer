@@ -452,7 +452,6 @@
 -analyzer:"D:/Unity/6000.0.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/CrashDetector.cs"
 "Assets/Scripts/FinishLine.cs"
-"Assets/Scripts/PlayerAirMovement.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 /deterministic
