@@ -454,6 +454,7 @@
 "Assets/Scripts/FinishLine.cs"
 "Assets/Scripts/PlayerBrake.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SnowParticle.cs"
 -langversion:9.0
 /deterministic
 /optimize+
