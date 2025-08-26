@@ -5,6 +5,14 @@ public class FinishLine : MonoBehaviour
 {
     [SerializeField] float restartDelay = 1f;
     [SerializeField] ParticleSystem goalParticle;
+    [SerializeField] GameObject winMenu;
+    [SerializeField] GameObject gameMenu;
+    [SerializeField] WinMenuManager winMenuManager;
+
+    void Start()
+    {
+        winMenu.gameObject.SetActive(false);   
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,12 +21,15 @@ public class FinishLine : MonoBehaviour
         {
             Debug.Log("The player has won");
             goalParticle.Play();
-            Invoke("Restart", restartDelay); // restart the game when player meet finish line
+            Invoke("OpenWinMenu", restartDelay); // restart the game when player meet finish line
         }
     }
 
-    void Restart()
+    void OpenWinMenu()
     {
-        SceneManager.LoadScene(0);
+        winMenu.gameObject.SetActive(true);
+        gameMenu.gameObject.SetActive(false);
+        Time.timeScale = 0;
+        winMenuManager.ShowResult();
     }
 }
